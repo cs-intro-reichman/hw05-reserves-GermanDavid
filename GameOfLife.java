@@ -72,7 +72,9 @@ public class GameOfLife {
 	// cell in the new board. Returns the new board.
 	public static int[][] evolve(int[][] board) {
 		//// Replace the following statement with your code.
-		return null;
+		int[][] newBoard = new int[1][1];
+		System.out.println("evolve function not implemented yet.");
+		return newBoard;
 	}
 
 	// Returns the value that cell (i,j) should have in the next generation.
